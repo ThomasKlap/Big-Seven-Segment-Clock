@@ -11,7 +11,7 @@
 extern "C" int clock_gettime(clockid_t unused, struct timespec *tp); // this line is necessary for first TimeGet
 static time_t now2; // An object which can store a time
 
-int SW_VERSION =002;
+int SW_VERSION =004;
 int count = 0;
 int color = 0;
 int red = 100;
